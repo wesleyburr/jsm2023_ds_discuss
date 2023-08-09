@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Statistics: Finding Its Place in a Data Science World</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Wesley S. Burr – Trent University    wsburr     wesleyburr@trentu.ca " />
+    <script src="libs/header-attrs-2.23/header-attrs.js"></script>
+    <script src="https://use.fontawesome.com/5235085b15.js"></script>
+    <link rel="stylesheet" href="example.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Statistics: Finding Its Place in a Data Science World
+### Wesley S. Burr – Trent University
+<br><a href="http://github.com/wesleyburr"><i class="fa fa-github fa-fw"></i> 
+wsburr</a> <br>
+<a href="mailto:wesleyburr@trentu.ca"><i class="fa fa-paper-plane fa-fw"></i> 
+wesleyburr@trentu.ca</a><br>
+### 2023-08-09   <br><br> Slides available at bit.ly/jsm2023data
+
+---
+
+
+class: inverse
+
+
+
+## Statistics Finding Its Place
+
+Thank you for inviting me to be the discussant for this session on statistics
+and data science.
+
+---
+
+class: inverse
+
+## Converting Statistical Resources (Sanchez)
+
+From the talk:
+
+--
+
+* In all the examples mentioned, everything involved one or more steps in the data science
+cycle, at the level appropriate for the moment and skill set of students, has been used.
+* The examples involve a variety of data sets, and some very large data sets. In some we
+present the same data in very different ways, depending on our goals.
+* But all the activities involve introductory statistics concepts in our classical curriculum
+for introductory stats, probability or time series.
+
+---
+
+class: top
+
+## `\(\;\)`
+
+&lt;center&gt;
+&lt;img src="figure/ds_cycle.png" style="width: 400px;"/&gt;
+&lt;/center&gt;
+
+---
+
+class: inverse
+
+## Thoughts
+
+* I enjoyed the optimism
+
+--
+
+* It's important to remember our rich history, and not throw it all out
+
+--
+
+* Our 'value add' can sometimes be "slow down, think about your data"
+
+--
+
+* Any chance we get to integrate UQ should be taken
+
+
+---
+
+class: inverse
+
+## Statistical Literacy: A Concept Map (Schield)
+
+From the talk:
+
+--
+
+* wonderful that students understand the point of the course
+
+--
+
+* also a really great way to encourage critical thinking
+
+--
+
+* I really like CARE and putting Confounding front and center
+
+--
+
+* A note that the definition of *effect size* is in some dispute
+
+
+---
+
+class: top
+
+## `\(\;\)`
+
+&lt;center&gt;
+&lt;img src="figure/assoc.png" style="width: 800px;"/&gt;
+&lt;/center&gt;
+
+---
+
+class: inverse
+
+## Embracing Data Science (Sarakinos)
+
+From the talk:
+
+--
+
+* This is a hard problem
+
+--
+
+* Governments really aren't built to move at the speed of change that we are facing and experiencing
+
+--
+
+    - and we probably don't want them to be?
+    
+--
+
+* Recruitment is a very real problem, especially with the salary disparity
+
+--
+
+* But the problems faced (response rates; survey quality; classic data gathering) are immense, so so form of solutions are needed
+
+--
+
+* Basically: a lot of sympathy!
+
+---
+
+class: top
+
+## `\(\;\)`
+
+&lt;center&gt;
+&lt;img src="figure/data_eng.png" style="width: 700px;"/&gt;
+&lt;/center&gt;
+
+
+---
+
+
+class: inverse
+
+## Key Take-Aways
+
+* some of these problems are things we've been discussing for decades
+
+--
+
+* student interest is not!
+
+--
+
+* important to move fast enough that statistics remains a core discipline in this area, while ...
+
+--
+
+    - not throwing out what makes our profession valuable
+
+--
+
+* no answers, just questions and challenges
+    
+---
+
+layout: false
+class: inverse, middle
+
+&lt;center&gt;
+&lt;a href="http://www.trentu.ca/math/"&gt;&lt;img src="figure/trent.png" style="width: 200px;"/&gt;&lt;/a&gt; &amp;emsp;&amp;emsp;
+&lt;a href="https://creativecommons.org/licenses/by/4.0/"&gt;&lt;img src="figure/cc.png" style="width: 200px;"/&gt;&lt;/a&gt;
+&lt;/center&gt;
+
+## `\(\;\)`
+
+- Contact me: [Email](mailto:wesleyburr@trentu.ca)
+- Slides created via the R package [xaringan](https://github.com/yihui/xaringan) by Yihui Xie
+- Slides and source at &lt;http://bit.ly/jsm2023data&gt;
+
+&lt;br/&gt;
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "tomorrow-night-bright",
+"highlightLines": true,
+"highlightLanguage": "r"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
